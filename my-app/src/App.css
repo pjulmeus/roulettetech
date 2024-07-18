@@ -1,16 +1,28 @@
 .App {
   text-align: center;
+  display: flex; /* or inline-flex */
+  justify-content:center;
+  align-items: flex-start;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.titleFormat {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+  display: flex; /* or inline-flex */
+  justify-content:center;
+  align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+  display: flex; /* or inline-flex */
+  justify-content:center;
+  align-items: center;
+}
+
+.nbaImg {
+  height: 171px;
+  width: 180px;
 }
 
 .App-header {
@@ -24,15 +36,8 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+

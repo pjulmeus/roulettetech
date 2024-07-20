@@ -1,0 +1,27 @@
+.formBody {
+    position: relative;
+    width: 740px;
+    height: 498px;
+    margin: 0 auto;
+    padding: 1em;
+    box-sizing: border-box;
+    background: whitesmoke;
+  }
+  
+  .formHeader {
+    text-align: center;
+    font-size: 20px;
+    font-weight: italics;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 1%;
+    color: rgb(0, 0, 0);
+  }
+  
+  .labelTitle {
+    display: block;
+    width: x;
+    height: y;
+    text-align: left;
+    font-weight: bold;
+  }
